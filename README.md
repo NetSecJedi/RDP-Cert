@@ -1,5 +1,5 @@
 # RDP-Cert
-# Manually Configure RDP to use CWP SSL cert instead of Self-Signed
+# Manually Configure RDP to use SSL cert instead of Self-Signed
 
 <#
 	.EXAMPLE From Windows Command line (requires elevation)
