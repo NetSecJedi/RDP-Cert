@@ -1,7 +1,6 @@
-# RDP-Cert
-# Manually Configure RDP to use SSL cert instead of Self-Signed
+# RDP-Cert -- Manually Configure RDP to use SSL cert instead of Self-Signed
 
-<#
+
 	.EXAMPLE From Windows Command line (requires elevation)
 			C:> powershell.exe -ExecutionPolicy Bypass -command "& { . 'RDP-Cert.ps1'; Invoke-CheckMyCerts }"
 			C:> powershell.exe -ExecutionPolicy Bypass -command "& { . 'RDP-Cert.ps1'; Invoke-ImportCert }"
@@ -15,4 +14,4 @@
 			PS> Invoke-ImportCert <password>
 			PS> Invoke-SetRDPCert <num>
 			PS> Invoke-CheckRDPCert
-#>
+
